@@ -1,0 +1,98 @@
+date,description,amount,type
+2024-10-03,Customer payment - Ankara dress set,45000,income
+2024-10-07,Sales: Bridal fabric bundle,80000,income
+2024-10-10,Customer payment - Lace gown,55000,income
+2024-10-15,Sales: Ready-to-wear collection,65000,income
+2024-10-19,Customer payment - Embroidered kaftan,75000,income
+2024-10-24,Sales: Accessories and headwraps,35000,income
+2024-10-28,Customer payment - Ankara suit,85000,income
+2024-10-01,Office rent - October,84000,expense
+2024-10-02,Fabric supplier - Balogun market wholesale,75000,expense
+2024-10-04,Staff salary - October,70000,expense
+2024-10-08,Transport delivery - Lekki customers,15000,expense
+2024-10-11,Fabric purchase - lace and ankara rolls,40000,expense
+2024-10-15,Electricity bill - NEPA October,12000,expense
+2024-10-20,Dispatch rider services,18000,expense
+2024-10-25,Instagram promotion ads,10000,expense
+2024-10-29,Materials purchase - buttons and thread,36000,expense
+2024-11-02,Sales: Aso-oke wedding set,90000,income
+2024-11-06,Customer payment - Party dress,55000,income
+2024-11-11,Sales: Ready-to-wear collection,65000,income
+2024-11-15,Customer payment - Embellished blouse,45000,income
+2024-11-19,Sales: Bridesmaid dresses,75000,income
+2024-11-24,Customer payment - Kaftan and headtie,50000,income
+2024-11-28,Sales: Accessories wholesale,60000,income
+2024-11-01,Office rent - November,84000,expense
+2024-11-03,Fabric supplier - Balogun market,80000,expense
+2024-11-05,Staff salary - November,70000,expense
+2024-11-09,Transport delivery - Ikeja,20000,expense
+2024-11-13,Fabric purchase - beads and sequins,52000,expense
+2024-11-17,Electricity bill - NEPA,13000,expense
+2024-11-21,Dispatch rider services,18000,expense
+2024-11-25,Facebook ads - December promotion,15000,expense
+2024-11-28,Accessories and thread,18000,expense
+2024-12-02,Sales: Christmas party dresses,95000,income
+2024-12-05,Customer payment - Ankara suits,120000,income
+2024-12-09,Sales: Bridal set - Aso-ebi,85000,income
+2024-12-13,Customer payment - Embroidered kaftan,65000,income
+2024-12-18,Sales: Ready-to-wear holiday,75000,income
+2024-12-23,Customer payment - New Year gowns,55000,income
+2024-12-28,Sales: Accessories - holiday rush,35000,income
+2024-12-01,Office rent - December,84000,expense
+2024-12-02,Fabric supplier - large holiday order,110000,expense
+2024-12-04,Staff salary - December,70000,expense
+2024-12-06,Overtime payment - holiday staff,25000,expense
+2024-12-10,Transport delivery - multiple drops,30000,expense
+2024-12-15,Fabric purchase - premium materials,50000,expense
+2024-12-18,Electricity bill - NEPA,15000,expense
+2024-12-21,Dispatch rider services - holiday,22000,expense
+2024-12-24,Instagram and Facebook ads,18000,expense
+2024-12-27,Packaging and accessories,6000,expense
+2025-01-04,Customer payment - New Year dress,45000,income
+2025-01-09,Sales: Casual wear collection,55000,income
+2025-01-14,Customer payment - Ankara blouse,35000,income
+2025-01-19,Sales: Ready-to-wear - January,65000,income
+2025-01-23,Customer payment - Embellished top,40000,income
+2025-01-27,Sales: Accessories and wrap,50000,income
+2025-01-31,Customer payment - Lace skirt set,70000,income
+2025-01-01,Office rent - January,84000,expense
+2025-01-03,Fabric supplier - January stock,70000,expense
+2025-01-05,Staff salary - January,70000,expense
+2025-01-09,Transport delivery - Surulere,15000,expense
+2025-01-13,Fabric purchase - ankara rolls,50000,expense
+2025-01-17,Electricity bill - NEPA,13000,expense
+2025-01-21,Dispatch rider services,15000,expense
+2025-01-26,Instagram ads - January sale,10000,expense
+2025-01-30,Accessories and sewing materials,33000,expense
+2025-02-03,Customer payment - Valentine collection,65000,income
+2025-02-07,Sales: Valentine day dresses,85000,income
+2025-02-11,Customer payment - Party blouse,45000,income
+2025-02-14,Sales: Bridal - Valentine special,90000,income
+2025-02-19,Customer payment - Ankara gown,55000,income
+2025-02-25,Sales: Ready-to-wear collection,60000,income
+2025-02-01,Office rent - February,84000,expense
+2025-02-03,Fabric supplier - Balogun,70000,expense
+2025-02-05,Staff salary - February,70000,expense
+2025-02-09,Transport delivery - Victoria Island,15000,expense
+2025-02-13,Fabric purchase - Valentine materials,45000,expense
+2025-02-17,Electricity bill - NEPA,13000,expense
+2025-02-21,Dispatch rider services,17000,expense
+2025-02-25,Valentine promotion - social ads,11000,expense
+2025-02-27,Packaging and accessories,15000,expense
+2025-03-04,Customer payment - Women's day dress,78000,income
+2025-03-08,Sales: Owambe collection,80000,income
+2025-03-12,Customer payment - Embroidered gown,80000,income
+2025-03-17,Customer payment - Ankara co-ord set,75000,income
+2025-03-20,Sales: Accessories and headwraps,12000,income
+2025-03-24,Sales: Bridal Set,180000,income
+2025-03-28,Sales: Silk Gown,45000,income
+2025-03-01,Office rent - March,84000,expense
+2025-03-02,Staff salary - March,70000,expense
+2025-03-07,Fabric supplier - Balogun market,90000,expense
+2025-03-11,Transport delivery - Yaba,40000,expense
+2025-03-14,Internet and phone bill,14500,expense
+2025-03-18,Dispatch rider services - Lagos Island,10000,expense
+2025-03-22,Courier Services,6000,expense
+2025-03-25,Utility: Power bill,12500,expense
+2025-03-26,Instagram and Facebook ads,13000,expense
+2025-03-27,Fabric Store - Balogun market,20000,expense
