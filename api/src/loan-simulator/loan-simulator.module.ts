@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
-import { LoanSimulatorService } from './loan-simulator.service.js';
-import { LoanSimulatorController } from './loan-simulator.controller.js';
-import { HealthScoreModule } from '../health-score/health-score.module.js';
-import { AnalyticsModule } from '../analytics/analytics.module.js';
-import { TransactionsModule } from '../transactions/transactions.module.js';
-import { BusinessModule } from '../business/business.module.js';
+import { LoanSimulatorService } from './loan-simulator.service';
+import { LoanSimulatorController } from './loan-simulator.controller';
+import { HealthScoreModule } from '../health-score/health-score.module';
+import { AnalyticsModule } from '../analytics/analytics.module';
+import { TransactionsModule } from '../transactions/transactions.module';
+import { BusinessModule } from '../business/business.module';
 
 @Module({
   imports: [HealthScoreModule, AnalyticsModule, TransactionsModule, BusinessModule],

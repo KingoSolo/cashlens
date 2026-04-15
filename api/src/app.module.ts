@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { BusinessModule } from './business/business.module.js';
-import { TransactionsModule } from './transactions/transactions.module.js';
-import { AnalyticsModule } from './analytics/analytics.module.js';
-import { HealthScoreModule } from './health-score/health-score.module.js';
-import { LoanSimulatorModule } from './loan-simulator/loan-simulator.module.js';
+import { BusinessModule } from './business/business.module';
+import { TransactionsModule } from './transactions/transactions.module';
+import { AnalyticsModule } from './analytics/analytics.module';
+import { HealthScoreModule } from './health-score/health-score.module';
+import { LoanSimulatorModule } from './loan-simulator/loan-simulator.module';
 
 @Module({
   imports: [

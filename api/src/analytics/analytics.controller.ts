@@ -1,7 +1,7 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { AnalyticsService } from './analytics.service.js';
-import { TransactionsService } from '../transactions/transactions.service.js';
-import { BusinessService } from '../business/business.service.js';
+import { AnalyticsService } from './analytics.service';
+import { TransactionsService } from '../transactions/transactions.service';
+import { BusinessService } from '../business/business.service';
 
 @Controller('analytics')
 export class AnalyticsController {

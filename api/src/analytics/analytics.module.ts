@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { AnalyticsService } from './analytics.service.js';
-import { AnalyticsController } from './analytics.controller.js';
-import { TransactionsModule } from '../transactions/transactions.module.js';
-import { BusinessModule } from '../business/business.module.js';
+import { AnalyticsService } from './analytics.service';
+import { AnalyticsController } from './analytics.controller';
+import { TransactionsModule } from '../transactions/transactions.module';
+import { BusinessModule } from '../business/business.module';
 
 @Module({
   imports: [TransactionsModule, BusinessModule],

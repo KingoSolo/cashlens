@@ -1,8 +1,8 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { HealthScoreService } from './health-score.service.js';
-import { AnalyticsService } from '../analytics/analytics.service.js';
-import { TransactionsService } from '../transactions/transactions.service.js';
-import { BusinessService } from '../business/business.service.js';
+import { HealthScoreService } from './health-score.service';
+import { AnalyticsService } from '../analytics/analytics.service';
+import { TransactionsService } from '../transactions/transactions.service';
+import { BusinessService } from '../business/business.service';
 
 @Controller('health-score')
 export class HealthScoreController {

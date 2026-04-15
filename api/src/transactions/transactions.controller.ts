@@ -1,11 +1,11 @@
 import { Controller, Post, Get, Param, Body, UploadedFile, UseInterceptors } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { memoryStorage } from 'multer';
-import { TransactionsService } from './transactions.service.js';
-import { CsvParserService } from './csv-parser.service.js';
-import { CategorizationService } from './categorization.service.js';
-import { BusinessService } from '../business/business.service.js';
-import { UploadDto } from './dto/upload.dto.js';
+import { TransactionsService } from './transactions.service';
+import { CsvParserService } from './csv-parser.service';
+import { CategorizationService } from './categorization.service';
+import { BusinessService } from '../business/business.service';
+import { UploadDto } from './dto/upload.dto';
 
 @Controller('transactions')
 export class TransactionsController {

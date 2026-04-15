@@ -1,9 +1,9 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import { LoanSimulatorService } from './loan-simulator.service.js';
-import { HealthScoreService } from '../health-score/health-score.service.js';
-import { AnalyticsService } from '../analytics/analytics.service.js';
-import { TransactionsService } from '../transactions/transactions.service.js';
-import { BusinessService } from '../business/business.service.js';
+import { LoanSimulatorService } from './loan-simulator.service';
+import { HealthScoreService } from '../health-score/health-score.service';
+import { AnalyticsService } from '../analytics/analytics.service';
+import { TransactionsService } from '../transactions/transactions.service';
+import { BusinessService } from '../business/business.service';
 
 @Controller('loan-simulator')
 export class LoanSimulatorController {

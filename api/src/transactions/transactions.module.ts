@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { Transaction } from './transaction.entity.js';
-import { TransactionsService } from './transactions.service.js';
-import { TransactionsController } from './transactions.controller.js';
-import { CsvParserService } from './csv-parser.service.js';
-import { CategorizationService } from './categorization.service.js';
-import { BusinessModule } from '../business/business.module.js';
+import { Transaction } from './transaction.entity';
+import { TransactionsService } from './transactions.service';
+import { TransactionsController } from './transactions.controller';
+import { CsvParserService } from './csv-parser.service';
+import { CategorizationService } from './categorization.service';
+import { BusinessModule } from '../business/business.module';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Transaction]), BusinessModule],

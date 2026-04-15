@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { HealthScoreResult } from '../health-score/health-score.service.js';
-import { AnalyticsSummary } from '../analytics/analytics.service.js';
+import { HealthScoreResult } from '../health-score/health-score.service';
+import { AnalyticsSummary } from '../analytics/analytics.service';
 
 export interface LoanSimulatorResult {
   decision: 'Approved' | 'Conditional' | 'Declined';

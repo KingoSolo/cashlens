@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MonthlyBreakdown, AnalyticsSummary } from '../analytics/analytics.service.js';
+import { MonthlyBreakdown, AnalyticsSummary } from '../analytics/analytics.service';
 
 export interface ComponentScore {
   name: string;

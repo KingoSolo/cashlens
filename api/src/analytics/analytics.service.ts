@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Transaction } from '../transactions/transaction.entity.js';
+import { Transaction } from '../transactions/transaction.entity';
 
 export interface MonthlyBreakdown {
   month: string;
