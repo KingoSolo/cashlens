@@ -22,4 +22,8 @@ export class BusinessService {
     }
     return business;
   }
+
+  async delete(id: string): Promise<void> {
+    await this.businessRepository.delete({ id });
+  }
 }

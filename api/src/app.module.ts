@@ -10,7 +10,7 @@ import { LoanSimulatorModule } from './loan-simulator/loan-simulator.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'better-sqlite3',
-      database: 'cashlens.db',
+      database: process.env.DATABASE_PATH ?? 'cashlens.db',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
       logging: false,

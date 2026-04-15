@@ -21,4 +21,8 @@ export class TransactionsService {
       order: { date: 'ASC' },
     });
   }
+
+  async deleteByBusiness(businessId: string): Promise<void> {
+    await this.transactionsRepository.delete({ businessId });
+  }
 }

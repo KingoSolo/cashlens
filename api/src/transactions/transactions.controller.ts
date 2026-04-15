@@ -1,4 +1,4 @@
-import { Controller, Post, Get, Param, Body, UploadedFile, UseInterceptors } from '@nestjs/common';
+import { Controller, Post, Get, Delete, Param, Body, UploadedFile, UseInterceptors } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { memoryStorage } from 'multer';
 import { TransactionsService } from './transactions.service';
@@ -47,5 +47,13 @@ export class TransactionsController {
   async findByBusiness(@Param('businessId') businessId: string) {
     await this.businessService.findById(businessId);
     return this.transactionsService.findByBusiness(businessId);
+  }
+
+  @Delete(':businessId')
+  async deleteBusiness(@Param('businessId') businessId: string): Promise<{ deleted: boolean }> {
+    await this.businessService.findById(businessId);
+    await this.transactionsService.deleteByBusiness(businessId);
+    await this.businessService.delete(businessId);
+    return { deleted: true };
   }
 }
